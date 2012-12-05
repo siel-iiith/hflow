@@ -1,0 +1,42 @@
+html,body{
+background:url(images/bb3.jpeg) repeat;
+min-height : 100%;
+height : auto !important;
+height : 100%	 
+}
+
+#page{
+min-height:100%;
+margin:0% 0%;
+position:relative;
+border:solid 0.1px black;
+}
+
+#header{
+width:100%;
+height: 100px;
+text-align: center;
+z-index: 10000;
+/*border-bottom: 1px solid #c8c8c8;*/
+box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+
+#header h1{
+	float : right ;
+	color : # ;
+	margin-right : 10px;
+	text-align:center;
+}
+
+#box1
+{
+	margin-top : 1px;	
+	float : left;	
+	height : 110px;
+        width : 100px;
+}
+
+#wrap 
+{
+	margin-left : 102px;	
+}

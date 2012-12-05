@@ -1,0 +1,428 @@
+html,body{
+margin:0;
+background:url(images/noise.png) repeat;
+}
+
+#page{
+min-height:100%;
+margin:0% 5%;
+position:relative;
+/*border:solid 1px red;*/
+}
+
+#header{
+width:100%;
+height: 100px;
+text-align: center;
+background: white;
+z-index: 10000;
+border-bottom: 1px solid #c8c8c8;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+/*border:solid 1px red;*/
+}
+
+a{
+text-decoration: none;
+}
+
+a.name,
+a:hover.name,
+a:focus.name,
+a:active.name{
+text-decoration: none;
+}
+table{
+color:#555;
+font:14px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:900;
+}
+
+.contactbox{
+line-height: 20px;
+height: 40px;
+width: 300px;
+
+
+}
+#logocontainer{
+float:left;
+width:10%;
+height:100%;
+}
+
+#logo{
+margin-left:10px;
+margin-top:30px;
+padding:5px 5px;
+}
+
+#box1{
+height: 310px;
+margin-top:100px;
+margin-left:100px;
+background: rgba(211, 211,211, 1);
+border-bottom: 1px solid #c8c8c8;
+}
+
+#box1text{
+margin-left:40px;
+margin-right:20px;
+float:left;
+text-align:justify;
+width:100%;
+color:black;
+font:15px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:bold;
+}
+
+td,th{
+
+text-decoration: none;
+}
+
+.datbox{
+background-color:white;
+color:red;
+
+}
+
+#box1head{
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 17.0px;
+line-height: 3em;
+color: #4AA7E4;
+text-align:left;
+margin-left:40px;
+}
+
+.linker{
+margin-left:0px;
+color: #009f9f;
+
+}
+
+
+#t1 td{
+width:30%;
+}
+#box1img{
+float:right;
+margin-right:100px;
+margin-left:50px;
+}
+#menu{
+float:right;
+height:100%;
+width:47%;
+/*border:solid 1px red;*/
+}
+#menu *{
+list-style:none;
+}
+
+ul{
+margin:0;
+padding:0;
+}
+
+
+#header #menu ul ul li a {
+float:left;
+line-height: 40px;
+margin:left:-100px;
+border-top: 0px;
+padding:0 ;
+font-size: 13px;
+color: #777;
+font-weight: bold;
+font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+text-decoration: none;
+}
+
+.services{
+text-align:justify;
+width:40%;
+/*border:solid 1px red;*/
+padding-left:20px;
+padding-right:20px;
+margin-left:10px;
+margin-right:10px;
+height:220px;
+float:left;
+border-left:0px;
+border-bottom: 1px solid #c8c8c8;
+/*box-shadow: 0px 0px 5px rgba(0,0,0,0.25);*/
+}
+
+#calenderbox{
+margin-top:100px;
+min-height:300px;
+padding :100px;
+padding-top :0px;
+padding-left :40px;
+width:420px;
+margin-left:100px;
+background: rgba(211, 211,211, 1);
+border-bottom: 1px solid #c8c8c8;
+
+}
+
+.incubatesimg{
+width:30%;
+height:150px;
+float:left;
+
+}
+
+#bx{
+width:49%;
+float:left;
+height:150px;
+}
+
+.num123{
+height:60%;
+width:90%;
+}
+
+.side1{
+height:100%;
+width:30%;
+float:left;
+padding:15px;
+}
+.side2{
+height:100%;
+width:90%;
+padding-top:20px;
+padding-left:40px;
+padding-right:40px;
+
+
+}
+
+#processimg{
+width:95%;
+margin-top:8%;;
+}
+
+#a1{
+width:250px;
+position:absolute;
+left:17%;;
+top:39%;
+color:#555;
+font:14px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:900;
+
+}
+#a2{
+width:250px;
+position:absolute;
+left:20%;;
+top:93%;
+color:#555;
+font:14px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:900;
+}
+
+#a3{
+width:250px;
+position:absolute;
+left:44%;;
+top:47%;
+color:#555;
+font:14px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:900;
+}
+#head123{
+color:#6495ED;
+font-weight:bold;
+font:20px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:bold;
+
+}
+.services_head{
+margin-top:10px;
+height:40px;
+/*border:solid 1px blue;*/
+font-size:20px;
+padding-bottom:10px;
+}
+
+#header #menu ul li a {
+white-space: nowrap;
+float:left;
+line-height: 80px;
+border-top: 4px solid white;
+padding:0 40%;
+font-size: 13px;
+color: #777;
+font-weight: bold;
+font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+text-decoration: none;
+}
+
+#header #menu li a:hover, #header #menu li.selected {
+color: #5DCFCA;
+border-color: #5DCFCA;
+text-decoration: none;
+}
+
+#coolMenu{
+width:100%;
+/*border:solid 1px yellow;*/
+}
+
+#coolMenu,
+#coolMenu ul {
+    list-style: none;
+/*border:solid 1px blue;*/
+}
+#coolMenu {
+    float: left;
+}
+#coolMenu > li {
+    float: left;
+}
+#coolMenu li a {
+display: block;
+    text-decoration: none;
+width:100%;
+/*border:solid 1px blue;*/
+}
+
+#coolMenu li{
+padding:0 30px;
+/*border:solid 1px red;*/
+text-align:center;
+width:9%;
+}
+#coolMenu ul {
+    position: absolute;
+    display: none;
+}
+#coolMenu li:hover ul {
+    display: block;
+    padding-top:50px;
+}
+
+#one{
+margin-top:50px;
+margin-left:-10px;
+background-color:white;
+width:130px;
+border-radius:15;
+}
+#two{
+margin-top:50px;
+margin-left:-10px;
+background-color:white;
+width:130px;
+border-radius:15;
+}
+
+.innerbox {
+min-height:200px;
+margin-top:30px;
+margin-left:20px;
+padding-top:30px;
+width:30%;
+/*border:solid 2px black;*/
+float:left;
+z-index:-200;
+}
+
+.bas{
+color:#6495ED;
+font:14px 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+font-weight:bold;
+}
+.bas:hover{
+font-weight: bold;
+}
+/*
+.innerbox:hover{
+background-color:rgba(0,0,0,0.1);
+}*/
+.clickimg{
+width:150px;
+height:150px;
+z-index:-210;
+border-bottom:solid 6px white;
+border-right:solid 6px white;
+border-top:solid 3px white;
+border-left:solid 3px white;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+/*border:solid 2px red;*/
+}
+.popup {
+minimum-height:350px;
+display:none;
+font-size:14px;
+background-color:rgba(0,0,0,0.1);
+border-radius:15px;
+margin-top:-16px;
+color:green;
+}
+
+.cross{1
+width:10px;
+height:10px;
+margin-right:0px;
+background-image:url(images/cross.png);
+}
+.imgname{
+margin-left:50px;
+width:150px;
+}
+.imgname:hover {
+/*border:solid 3px red;*/
+border-radius:15px;
+background-color:rgba(0,0,0,0.1);
+color:red;
+cursor:pointer;
+}
+
+#one li  {
+margin:0;
+}
+
+#content{
+/*border:solid 1px red;*/
+width:100%;
+}
+
+#text{
+width:58%;
+float:left;
+/*border:solid 2px blue;*/
+}
+
+#image{
+float:left;
+width:25%;
+/*border:solid 2px blue;*/
+}
+
+#bulb{
+margin-left:0%;
+}
+
+#footer{
+position:absolute;
+bottom:0;
+width:100%;
+height:40px;
+}
+
+.foot{
+vertical-align:middle;
+font-weight: bold;
+font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+color: #777;
+}
+.verticalLine {
+	    border-right:solid #000000;
+}
